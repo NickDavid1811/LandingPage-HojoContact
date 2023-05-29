@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./image/logo_HojoContact.png">
+  <link rel="stylesheet" href="./styles.css">
+  <title>HojoContact</title>
+</head>
+
+<body>
+  <div class="header-container">
+    <header class="d-flex flex-wrap justify-content-center align-items-center px-5 py-3">
+      <a href="./index.html"
+        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none gap-3">
+        <img src="./image/logo_HojoContact.png" width="70px" alt="">
+        <span class="fs-2">HojoContact</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#Home" class="nav-link text-dark">Home</a></li>
+        <li class="nav-item"><a href="#Features" class="nav-link text-dark">Features</a></li>
+        <li class="nav-item"><a href="#FAQs" class="nav-link text-dark">FAQs</a></li>
+        <li class="nav-item"><a href="#Acerca de" class="nav-link text-dark">Acerca de</a></li>
+        <li class="nav-item"><a href="#Descargala" class="nav-link text-dark">Descargar</a></li>
+      </ul>
+    </header>
+  </div>
+
+  <section id="Home" class="box-home">
+    <div class="box-home-description">
+      <img id="home-image" src="./image/home-image.png" alt="">
+      <div class="slider">
+        <div class="slider-content">
+          <img id="image-wireframe" src="./image/wireframe_cliente.png" alt="Imagen 1">
+          <img id="image-wireframe" src="./image/wireframe_trabajador.png" alt="Imagen 2">
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="Features">
+    <div class="box-features-container">
+      <h1 style="text-align: center;">Las caracteristicas de nuestra aplicación son</h1>
+      <div
+        style="display: grid;justify-content: center;grid-template-columns:300px 300px 300px;gap:90px;text-align: center;">
+        <div class="box-feature">
+          <h5>Busqueda sencilla </h5>
+          <img class="feature-image" src="./image/busqueda_image.jpeg" width="150px" alt="">
+        </div>
+        <div class="box-feature">
+          <h5>Interfaz amigable con el usuario</h5>
+          <img class="feature-image" src="./image/interfaz_amigable.avif" width="180px" alt="">
+        </div>
+        <div class="box-feature">
+          <h5>Autenticacion con credenciales</h5>
+          <img class="feature-image" src="./image/autenticacion_image.jpg" width="150px" alt="">
+        </div>
+        <div class="box-feature">
+          <h5>Actualizaciones automaticas</h5>
+          <img class="feature-image" src="./image/actualizaciones_image.png" width="150px" alt="">
+        </div>
+        <div class="box-feature">
+          <h5>Notificaciones sobre eventos, actualizaciones o mensajes importantes</h5>
+          <img class="feature-image" src="./image/notificaciones_image.jpg" width="250px" alt="">
+        </div>
+        <div class="box-feature">
+          <h5>Sequimiento de la ubicacion en tiempo real</h5>
+          <img class="feature-image" src="./image/seguimiento_image.png" width="200px" alt="">
+        </div>
+        <div class="box-feature">
+          <h5>Negociacion de pago entre los usuarios</h5>
+          <img class="feature-image" src="./image/negociacion_image.jpg" width="250px" alt="">
+        </div>
+        <div class="box-feature">
+          <h5>Sistemas de reseñas de calificacion</h5>
+          <img class="feature-image" src="./image/reseñas_imagen.avif" width="250px" alt="">
+        </div>
+        <div class="box-feature">
+          <h5>Reporte de agresiones por parte de los usuarios</h5>
+          <img class="feature-image" src="./image/reporte_image.png" width="220px" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="FAQs">
+    <div
+      style="display: flex;flex-direction: column;gap: 30px;align-items: center;padding: 80px 80px;border-bottom: 1px  solid black;background-color: black;color: white;">
+      <h1>Preguntas y respuestas frecuentes</h1>
+      <div class="box-question-container">
+        <div class="box-question-item">
+          <a style="text-decoration: none; font-weight: bold;" data-bs-toggle="collapse" href="#answer1" role="text"
+            aria-expanded="false">
+            1. Qué es HojoContact?
+          </a>
+          <p id="answer1" class="
+          collapse">
+            Somos una empresa especializada en el desarrollo de software de calidad. Nos dedicamos a analizar a nuestro
+            público
+            objetivo con tal de permitir crear una solución eficiente.
+          </p>
+        </div>
+        <div class="box-question-item">
+          <a style="text-decoration: none; font-weight: bold;" data-bs-toggle="collapse" href="#answer2" role="text"
+            aria-expanded="false" aria-controls="collapseExample">
+            2. Cómo funciona la aplicacion HojoContact?
+          </a>
+          <p id="answer2" class="collapse">
+            El propósito de esta aplicación es facilitar la comunicación entre los usuarios que desean algún tipo de
+            servicio para su hogar y las personas que prestan el servicio. De esta manera, nuestra aplicación permite a
+            los trabajadores que brindan sus servicios, puedan proporcionar sus datos a los usuarios, como por ejemplo:
+            número de teléfono, redes sociales, correo electrónico, oficio, etc; para que sea contactado por la persona
+            que lo necesite.
+          </p>
+        </div>
+        <div class="box-question-item">
+          <a style="text-decoration: none;  font-weight: bold;" data-bs-toggle="collapse" href="#answer3" role="text"
+            aria-expanded="false" aria-controls="collapseExample">
+            3. ¿Está disponible la aplicacion HojoContact en mi ciudad/país?
+          </a>
+          <p id="answer3" class="collapse">
+            Hojocontact esta disponible solo para Lima, Peru; pronto en nuevos sitios.
+          </p>
+        </div>
+        <div class="box-question-item">
+          <a style="text-decoration: none;  font-weight: bold;" data-bs-toggle="collapse" href="#answer4" role="text"
+            aria-expanded="false" aria-controls="collapseExample">
+            4. Cuánto cuesta aplicacion HojoContact?
+          </a>
+          <p id="answer4" class="collapse">
+            Puesto que recien estamos empezando, hemos decidido que la aplicacion sea gratuita de tal forma que sea
+            accesible para todo el mundo.
+          </p>
+        </div>
+        <div class="box-question-item">
+          <a style="text-decoration: none;  font-weight: bold;" data-bs-toggle="collapse" href="#answer5" role="text"
+            aria-expanded="false" aria-controls="collapseExample">
+            5. Que tipos de servicios ofrece la aplicacion HojoContact?
+          </a>
+          <p id="answer5" class="collapse">
+            Hojocontact ofrece diferentes servicios de tipo de domestico, los cuales serian plomeria, gasfiteria,
+            carpinteria, servicio de electricidad, decoracion de interiores, etc.
+          </p>
+        </div>
+        <div class="box-question-item">
+          <a style="text-decoration: none; font-weight: bold;" data-bs-toggle="collapse" href="#answer6" role="text"
+            aria-expanded="false" aria-controls="collapseExample">
+            6. Es seguro usar la aplicacion HojoContact?
+          </a>
+          <p id="answer6" class="collapse">
+            Si. Contamos con la autenticacion HTTPS de tal forma de que todos los datpos almacenados de cada usuario
+            esten cifrados.
+          </p>
+        </div>
+        <div class="box-question-item">
+          <a style="text-decoration: none;  font-weight: bold;" data-bs-toggle="collapse" href="#answer7" role="text"
+            aria-expanded="false" aria-controls="collapseExample">
+            7. Se puede cambiar el tipo de cuenta una vez que ya la cree?
+          </a>
+          <p id="answer7" class="collapse">
+            Si. Una vez creada la cuenta, si usted desea cambiar el tipo, puede hacerlo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Acerca de" class="box-about">
+    <div class=" box-company-description">
+      <div class="box-company-container">
+        <div>
+          <h1>Nuestra empresa</h1>
+          <p>
+            Somos HojoContact y como empresa especializada en el desarrollo de software de calidad, nos dedicamos a
+            analizar
+            a
+            nuestro público objetivo con tal de permitir crear una solución eficiente.
+          </p>
+        </div>
+        <img id="company-image" src="./image/company-image.jpg" width="300px" alt="">
+      </div>
+      <div class="box-company-container">
+        <img id="company-image" src="./image/vision-image.jpg" width="300px" alt="">
+        <div>
+          <h1>Vision</h1>
+          <p>
+            La vision de nuestra empresa es crear la mejor aplicación de servicio domestico del Perú y que nos nuestros
+            usuarios puedan encontrar solución y sentirse cómodo con nuestro producto.
+          </p>
+        </div>
+      </div>
+      <div class="box-company-container">
+        <div>
+          <h1>Mision</h1>
+          <p>
+            La misión de nuestra empresa es que podamos generar más empleos en este tiempo donde la poblacion se ve
+            afectada por la crisis economica que produjo la pandemia de la COVID 19.
+          </p>
+        </div>
+        <img id="company-image" src="./image/mision-image.jpg" width="300px" alt="">
+      </div>
+    </div>
+    <div class="box-company-team">
+      <div class="box-company-team-developer">
+        <h1>Los creadores de HojoContact</h1>
+        <p>
+          Aqui presentamos al equipo creador de HojoContact:
+        </p>
+      </div>
+      <div style="display: flex; flex-direction: column; gap:30px">
+        <div class="box-team-item-container1">
+          <div class="team-item">
+            <img id="item-image" src="./image/carlos-image.png" width=200px" alt="" />
+            <h4>Carlos Guimaraes</h4>
+          </div>
+          <div class="team-item">
+            <img id="item-image" src="./image/astrid-image.png" width="200px" alt="" />
+            <h4>Astrid Boronda</h4>
+          </div>
+          <div class="team-item">
+            <img id="item-image" src="./image/jorge-image.png" width="200px" alt="" />
+            <h4>Jorge Altamirano</h4>
+          </div>
+        </div>
+        <div class="box-team-item-container2">
+          <div class="team-item">
+            <img id="item-image" src="./image/juan-image.png" width="200px" alt="" />
+            <h4>Juan Montes</h4>
+          </div>
+          <div class="team-item">
+            <img id="item-image" src="./image/david-image.png" width="200px" alt="" />
+            <h4>David Soto</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <button id="button-begin">Ir al inicio</button>
+  <script>
+    var btnInicio = document.getElementById("button-begin"); btnInicio.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }); 
+  </script>
+
+  <section id="Descargala">
+    <div
+      style="border-top: 1px solid black; padding:50px 0px 0px 0px; display: flex; flex-direction: column; gap:50px;align-items: center;">
+      <h1>Descarga nuestra aplicacion en las siguientes plataformas:</h1>
+      <div style="display: flex">
+        <a href="https://play.google.com/store/games?hl=es_PE&gl=US" target="_blank">
+          <img src="./image/goggle_play-badge.png" alt="">
+        </a>
+        <a href="https://www.apple.com/la/app-store/" target="_blank">
+          <img src="./image/app_store-badge.png" alt="">
+        </a>
+      </div>
+  </section>
+
+  <footer style="background-color: #FFE738;color:black; padding: 12px;display: flex;justify-content: center;">
+    <p>
+      &copy;2023 HojoContact, Inc. Todos los derechos reservados.
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
